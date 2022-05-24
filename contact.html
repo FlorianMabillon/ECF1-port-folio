@@ -13,31 +13,36 @@
 </head>
 
 <body>
-    <button id="btn_mode"><i class="fa-solid fa-circle-half-stroke"></i></button>
     <header>
-
         <nav>
             <ul>
-                <li><a href="./accueil.html"><span>Accueil</span></a></li>
+                <li><a href="./accueil.html">Accueil</a></li>
                 <li class="deco">|</li>
-                <li><a href="./a_propos.html"><span>A propos</span></a></li>
+                <li><a href="./a_propos.html">A propos</a></li>
                 <li class="deco">|</li>
-                <li><a href="./mes_projets.html"><span>Mes projets</span></a></li>
+                <li><a href="./mes_projets.html">Mes projets</a></li>
                 <li class="deco">|</li>
                 <li><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <form id="formulaire" action="">
-            <label for="">Prénom</label>
-            <input type="text" name="" id="">
-            <label for="">Nom</label>
-            <input type="text">
-            <label for="">Sujet</label>
-            <textarea name="" id="" cols="30" rows="5"></textarea>
-        </form>
+    <main id="contact">
+        <h1 id="title__contact">Contact</h1>
+        <form id="formulaire">
+            <div class="form__contact">
+                <label for="name">Prénom :</label>
+                <input type="text" name="prenom" id="prenom">
+            </div>
+            <div class="form__contact">
+                <label for="lastname">Nom :</label>
+                <input type="text" name="nom" id="nom">
+            </div>
+            <div class="form__contact">
+                <label for="subject">Sujet :</label>
+                <textarea name="subject" id="subject" cols="30" rows="5"></textarea>
+            </div>
         <button>Envoie</button>
+        </form>
     </main>
     <script src="./app/app.js"></script>
 </body>
