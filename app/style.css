@@ -3,7 +3,6 @@
     --main-bg-color: black;
     --color: rgb(64, 232, 22, 75%);
 }
-
 /* mise a zero de la position de l'ensemble de la page */
 *{
     margin: 0;
