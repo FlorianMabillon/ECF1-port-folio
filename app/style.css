@@ -50,6 +50,7 @@ h1{
     height: 5px;
     background-color: var(--color);
 }
+
 /* *********************************************** */
 /* Header avec nav */
 header{
@@ -209,10 +210,12 @@ figure:hover{
     justify-content: space-between;
 }
 @media screen and (min-width: 500px){
-    #contact{
-        width: 100%;
-    }
     #formulaire{
         width: 80%;
+    }
+}
+@media screen and (min-width: 800px){
+    #formulaire{
+        width: 60%;
     }
 }
